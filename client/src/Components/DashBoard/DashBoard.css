@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    display: grid;
+    grid-template-areas: 
+      "header header"
+      "sidebar main";
+    grid-template-columns: 280px 1fr;
+    grid-template-rows: 70px 1fr 1fr;
+    height: 100vh;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .side-bar {
+    grid-area: sidebar;
+  }
+  
+  .main {
+    grid-area: main;
+    padding: 20px;
+  }
+  
+  

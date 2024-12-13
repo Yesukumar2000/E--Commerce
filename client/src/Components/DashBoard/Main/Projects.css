@@ -1,0 +1,133 @@
+.projects {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.projects-header h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.view-all-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.project-details {
+    align-items: center;
+}
+
+.project-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    object-fit: cover;
+}
+
+
+.project-header{
+    display: flex;
+}
+.project-name {
+    text-align: right;
+    align-items: center;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 9px 0px 10px 15px;
+    margin-bottom: 25px;
+}
+
+.due-date,
+.tasks {
+    font-size: 14px;
+    color: #555;
+}
+
+.project-progress {
+    display: flex;
+    flex-direction: row;
+}
+
+.progress-bar {
+    width: 600px;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #28a745;
+    border-radius: 3px;
+}
+
+.progress-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.project-team {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.team-members {
+    display: flex;
+    margin-right: 10px;
+}
+
+.team-member {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: -10px;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+.additional-members {
+    font-size: 14px;
+    color: #555;
+    margin-left: 10px;
+}
+
+.add-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.options-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #2db74c;
+  --primary-hover-color: #23923a;
+  --secondary-color: #6c757d;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    padding: 0%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.SectionDiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .SectionDiv h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .SectionDiv p {
+    max-width: 300px;
+    color: var(--secondary-color);
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .form-input{
+    position: relative;
+    width: 100%;
+  }
+  .form-input i{
+    color: var(--primary-color);
+    position: absolute;
+    left: 290px;
+    top: 60%;
+    transform: translateY(-50%);
+    font-size: 22px; 
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+ 
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .classButton {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .classButton:hover {
+    background-color:var(--primary-hover-color);
+  }
+    
+  .forgot-password-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+  }
+  
+  .textbox {
+    margin-bottom: 15px;
+  }
+  
+  .textbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
